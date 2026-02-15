@@ -1,6 +1,6 @@
 name: Update IP List
 
-on:
+于:
   schedule:
     - cron: '*/30 * * * *'  # 每隔三十分钟运行一次
   workflow_dispatch:  # 手动触发
@@ -55,8 +55,8 @@ jobs:
         
     - name: Commit and push changes
       run: |
-        git config --global user.email "baolw50@gmail.com"
-        git config --global user.name "jc-lw"
+        git config --global user.email "tonyya92@outlook.com"
+        git config --global user.name "ya950"
         git config --global pull.rebase false
         
         # 拉取最新更改，避免冲突
